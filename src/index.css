@@ -96,6 +96,27 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-casino-dark text-white font-rubik;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #ff6b35 0%, #00d4ff 100%);
+  }
+
+  .gradient-card {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 107, 53, 0.1) 0%,
+      rgba(0, 212, 255, 0.1) 100%
+    );
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #ff6b35 0%, #00d4ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }

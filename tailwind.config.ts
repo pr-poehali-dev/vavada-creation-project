@@ -18,12 +18,19 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'rubik': ['Rubik', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'casino-orange': '#FF6B35',
+				'casino-blue': '#00D4FF',
+				'casino-dark': '#1A1A1A',
+				'casino-gray': '#2A2A2A',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
