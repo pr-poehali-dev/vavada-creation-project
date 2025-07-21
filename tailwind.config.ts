@@ -27,10 +27,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				'casino-orange': '#FF6B35',
-				'casino-blue': '#00D4FF',
-				'casino-dark': '#1A1A1A',
-				'casino-gray': '#2A2A2A',
+				'vavada-gold': '#FFD700',
+				'vavada-dark': '#0D1B2A',
+				'vavada-navy': '#1B263B',
+				'vavada-accent': '#415A77',
+				'vavada-light': '#778DA9',
+				'vavada-red': '#E63946',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

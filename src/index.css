@@ -96,27 +96,31 @@
   }
 
   body {
-    @apply bg-casino-dark text-white font-rubik;
+    @apply bg-vavada-dark text-white font-rubik;
   }
 }
 
 @layer utilities {
   .gradient-primary {
-    background: linear-gradient(135deg, #ff6b35 0%, #00d4ff 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #e63946 100%);
   }
 
   .gradient-card {
     background: linear-gradient(
       135deg,
-      rgba(255, 107, 53, 0.1) 0%,
-      rgba(0, 212, 255, 0.1) 100%
+      rgba(255, 215, 0, 0.1) 0%,
+      rgba(230, 57, 70, 0.1) 100%
     );
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #ff6b35 0%, #00d4ff 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #e63946 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  .vavada-shadow {
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
   }
 }
